@@ -1,0 +1,32 @@
+.teamList {
+  .status-0 {
+    background-color: orange;
+  }
+  .status-2 {
+    background-color: paleturquoise;
+  }
+  .status-3 {
+    background-color: palegreen;
+  }
+  .teamItem {
+    height: 125px;
+    .idText {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // font-size: large;
+    }
+    .nameText {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: larger;
+    }
+  }
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

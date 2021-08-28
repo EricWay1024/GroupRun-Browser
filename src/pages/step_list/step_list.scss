@@ -1,0 +1,58 @@
+.stepList {
+
+  .stepItem {
+    // padding: 3vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-bottom: 1px solid gray;
+    // :first-of-type{
+    //   border-top: 1px solid gray;
+    //   // margin-top: 3vh;
+    // }
+    .avatarCtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .avatarImg {
+        width: 125px;
+        height: 125px;
+        border-radius: 10px;
+      }
+    }
+    .rankText {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: larger;
+    }
+    .aliasText {
+      display: flex;
+      align-items: center;
+      font-size: larger;
+    }
+    .stepText {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: larger;
+      color: orange;
+    }
+    .likeCtn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: large;
+      .myLike-off {
+        padding-right: 5px;
+        color: #dedede
+      }
+      .myLike-on {
+        padding-right: 5px;
+        color: #f65b5d;
+      }
+      .likeCnt {
+        color: #dedede;
+      }
+    }
+  }
+}

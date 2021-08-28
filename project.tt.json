@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "GroupRun",
+  "description": "给特定群组进行每日微信步数排名",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

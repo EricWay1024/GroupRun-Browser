@@ -1,0 +1,31 @@
+.avatarCtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .avatarImg {
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+  }
+}
+
+.status-0 {
+  background-color: orange;
+}
+.status-2 {
+  background-color: paleturquoise;
+}
+.status-3 {
+  background-color: palegreen;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.memberItem {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px grey solid;
+}
