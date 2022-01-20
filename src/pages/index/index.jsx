@@ -118,7 +118,7 @@ export default class Index extends Component {
 
   render () {
     return (
-      <View className='index'>
+      <View className={`index${this.state.avatar_url ? "" : "-default"}`}>
         {this.state.avatar_url &&
           <View className='at-row avatarCtn'>
             <AtAvatar image={this.state.avatar_url} className='avatarImg' circle></AtAvatar>

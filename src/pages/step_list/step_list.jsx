@@ -77,10 +77,10 @@ export default class Index extends Component {
               <View className='at-col at-col-3 avatarCtn'>
                 <Image src={e.avatarUrl} className='avatarImg'></Image>
               </View>
-              <View className='at-col at-col-3 aliasText'>
+              <View className='at-col at-col-4 aliasText'>
                 {e.alias}
               </View>
-              <View className='at-col at-col-3 stepText'>
+              <View className='at-col at-col-2 stepText'>
                 {e.step}
               </View>
               <View className='at-col at-col-1 likeCtn'>
